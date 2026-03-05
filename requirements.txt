@@ -1,0 +1,18 @@
+# ============================================================
+# requirements.txt — Python package dependencies
+# ============================================================
+# To install all packages, run:
+#   pip install -r requirements.txt
+#
+# What each package does:
+#   fastapi    — the web framework that powers our API
+#   uvicorn    — the server that actually "runs" FastAPI
+#   httpx      — lets Python make HTTP requests (to Open-Meteo)
+#   pydantic   — data validation (already included with FastAPI,
+#                listed here for clarity)
+# ============================================================
+
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+httpx==0.27.0
+pydantic==2.6.4
